@@ -74,6 +74,11 @@ def submit_nilai():
         f"Prediksi Fakultas: {prediksi}"
     )
 
+    # Mengosongkan input setelah berhasil
+    entry_nama.delete(0, tk.END)
+    entry_biologi.delete(0, tk.END)
+    entry_fisika.delete(0, tk.END)
+    entry_inggris.delete(0, tk.END)
 
 
 # 7. Membuat tampilan Tkinter
