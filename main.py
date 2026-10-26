@@ -100,10 +100,7 @@ def buat_input(label_text):
     return entry
 
 
-entry_nama = buat_input("Nama Siswa")
-entry_biologi = buat_input("Nilai Biologi")
-entry_fisika = buat_input("Nilai Fisika")
-entry_inggris = buat_input("Nilai Inggris")
+
 
 tk.Button(
     root,
