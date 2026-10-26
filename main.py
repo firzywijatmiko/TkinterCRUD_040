@@ -84,9 +84,8 @@ def submit_nilai():
 # 7. Membuat tampilan Tkinter
 root = tk.Tk()
 root.title("Prediksi Fakultas Siswa")
-root.geometry("400x420")
+root.geometry("400x450")
 root.resizable(False, False)
-hb
 
 tk.Label(
     root, text="PREDIKSI FAKULTAS SISWA",
