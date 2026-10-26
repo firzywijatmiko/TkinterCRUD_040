@@ -93,11 +93,7 @@ tk.Label(
 ).pack(pady=15)
 
 
-def buat_input(label_text):
-    tk.Label(root, text=label_text).pack()
-    entry = tk.Entry(root, width=35)
-    entry.pack(pady=5)
-    return entry
+
 
 
 entry_nama = buat_input("Nama Siswa")
